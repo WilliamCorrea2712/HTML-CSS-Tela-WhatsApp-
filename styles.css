@@ -18,6 +18,7 @@ ul {
 
 /* side bar */
 .sidebar {
+  background-color: #111b21;
   width: 410px; /* Define a largura da barra lateral como 410px. */
   height: 100%; /* Define a altura da barra lateral como 100% da altura do seu contêiner pai. */
   display: inline-block; /* Faz com que a barra lateral se comporte como um bloco e fique alinhada ao lado de outros elementos em linha. */
@@ -28,7 +29,7 @@ ul {
 .toolbar-container {
   width: 100%; /* Define a largura da barra de ferramentas como 100% do seu contêiner pai. */
   height: 60px; /* Define a altura da barra de ferramentas como 60px. */
-  background-color: #eee; /* Define a cor de fundo da barra de ferramentas como cinza claro. */
+  background-color: #202c33; /* Define a cor de fundo da barra de ferramentas como cinza claro. */
 }
 
 .user-photo {
@@ -61,8 +62,8 @@ ul {
   height: 90px; /* Define a altura do contêiner de notificações como 90px. */
   padding-top: 23px; /* Adiciona um preenchimento na parte superior do contêiner de notificações. */
   padding-left: 80px; /* Adiciona um preenchimento na parte esquerda do contêiner de notificações. */
-  background-color: #9de1fe; /* Define a cor de fundo do contêiner de notificações como azul claro. */
-  color: #384c56; /* Define a cor do texto do contêiner de notificações como cinza escuro. */
+  background-color: #005c4b; /* Define a cor de fundo do contêiner de notificações como azul claro. */
+  color: #fff; /* Define a cor do texto do contêiner de notificações como cinza escuro. */
   position: relative; /* Define a posição do contêiner de notificações como relativa para que os elementos dentro dele sejam posicionados relativos a ele. */
   box-sizing: border-box; /* Faz com que as bordas e o preenchimento sejam contabilizados no cálculo da largura e altura total do contêiner. */
 }
@@ -74,7 +75,7 @@ ul {
   line-height: 45px; /* Define a altura da linha do ícone de notificação como 45px para centralizar verticalmente o ícone. */
   border-radius: 50%; /* Define um raio de borda de 50% para criar uma forma de círculo para o ícone de notificação. */
   font-size: 18px; /* Define o tamanho da fonte do ícone de notificação como 18px. */
-  color: #9de1fe; /* Define a cor do ícone de notificação como azul claro. */
+  color: #799099; /* Define a cor do ícone de notificação como azul claro. */
   background-color: #f5fcff; /* Define a cor de fundo do ícone de notificação como branco. */
   position: absolute; /* Define a posição do ícone de notificação como absoluta para que possa ser posicionado dentro do contêiner de notificações. */
   top: 20px; /* Define a distância do topo como 20px para posicionar o ícone de notificação. */
@@ -100,7 +101,7 @@ ul {
   width: 100%; /* Define a largura do contêiner de pesquisa como 100% do seu contêiner pai. */
   padding-left: 7.5px; /* Adiciona um preenchimento à esquerda do contêiner de pesquisa. */
   padding-top: 7.5px; /* Adiciona um preenchimento ao topo do contêiner de pesquisa. */
-  background-color: #f8f8f8; /* Define a cor de fundo do contêiner de pesquisa como cinza claro. */
+  background-color: #111b21; /* Define a cor de fundo do contêiner de pesquisa como cinza claro. */
   position: relative; /* Define a posição do contêiner de pesquisa como relativa para que os elementos dentro dele sejam posicionados relativos a ele. */
   color: #bdc1c3; /* Define a cor do texto do contêiner de pesquisa como cinza claro. */
   box-sizing: border-box; /* Faz com que as bordas e o preenchimento sejam contabilizados no cálculo da largura e altura total do contêiner. */
@@ -119,7 +120,7 @@ ul {
   width: 385px; /* Define a largura do campo de pesquisa como 385px. */
   padding-left: 60px; /* Adiciona um preenchimento à esquerda do campo de pesquisa para acomodar o ícone de pesquisa. */
   border-radius: 17.5px; /* Define um raio de borda de 17.5px para criar uma forma arredondada para o campo de pesquisa. */
-  background-color: #fff; /* Define a cor de fundo do campo de pesquisa como branco. */
+  background-color: #2a3942; /* Define a cor de fundo do campo de pesquisa como branco. */
   box-sizing: border-box; /* Faz com que as bordas e o preenchimento sejam contabilizados no cálculo da largura e altura total do campo de pesquisa. */
 }
 
@@ -136,26 +137,26 @@ ul {
 .contact-box {
   cursor: pointer; /* Altera o cursor para o formato de ponteiro quando o mouse passa sobre as caixas de contato, indicando que elas são clicáveis. */
   height: 72px; /* Define a altura das caixas de contato como 72px. */
-  background-color: #fff; /* Define a cor de fundo das caixas de contato como branco. */
-  border-top: 1px solid #f2f2f2; /* Adiciona uma borda superior sólida de 1px com cor cinza claro nas caixas de contato. */
+  background-color: #111b21; /* Define a cor de fundo das caixas de contato como branco. */
+  border-top: 1px solid #2f2d2d; /* Adiciona uma borda superior sólida de 1px com cor cinza claro nas caixas de contato. */
   position: relative; /* Define a posição das caixas de contato como relativa para que os elementos dentro delas sejam posicionados relativos a elas. */
   box-sizing: border-box; /* Faz com que as bordas e o preenchimento sejam contabilizados no cálculo da largura e altura total das caixas de contato. */
 }
 
 .contact-box:last-child {
-  border-bottom: 1px solid #f2f2f2; /* Adiciona uma borda inferior sólida de 1px com cor cinza claro na última caixa de contato. */
+  border-bottom: 1px solid #2f2d2d; /* Adiciona uma borda inferior sólida de 1px com cor cinza claro na última caixa de contato. */
 }
 
 .contact-box:hover {
-  background-color: #f4f5f5; /* Define a cor de fundo das caixas de contato quando o mouse passa sobre elas como cinza claro. */
+  background-color: #2a3942; /* Define a cor de fundo das caixas de contato quando o mouse passa sobre elas como cinza claro. */
 }
 
 .active-chat {
-  background-color: #e9ebeb; /* Define a cor de fundo da caixa de contato ativa como cinza claro. */
+  background-color: #2a3942; /* Define a cor de fundo da caixa de contato ativa como cinza claro. */
 }
 
 .active-chat.contact-box:hover {
-  background-color: #e9ebeb; /* Define a cor de fundo da caixa de contato ativa quando o mouse passa sobre ela como cinza claro. */
+  background-color: #2a3942; /* Define a cor de fundo da caixa de contato ativa quando o mouse passa sobre ela como cinza claro. */
 }
 
 .contact-box .user-photo {
@@ -175,13 +176,13 @@ ul {
 
 .user-name {
   font-size: 16px; /* Define o tamanho da fonte do nome do usuário como 16px. */
-  color: #000; /* Define a cor do nome do usuário como preto. */
+  color: #fff; /* Define a cor do nome do usuário como preto. */
   margin-bottom: 12px; /* Adiciona uma margem inferior de 12px para separar o nome do usuário da mensagem de pré-visualização. */
 }
 
 .user-messagepreview {
-  font-size: 14px; /* Define o tamanho da fonte da mensagem de pré-visualização do usuário como 14px. */
-  color: #454545; /* Define a cor da mensagem de pré-visualização do usuário como cinza escuro. */
+  font-size: 12px; /* Define o tamanho da fonte da mensagem de pré-visualização do usuário como 14px. */
+  color: #a9a9a9; /* Define a cor da mensagem de pré-visualização do usuário como cinza escuro. */
 }
 
 .fa-check-double {
@@ -231,8 +232,8 @@ ul {
 
 .chat-navbar {
   height: 60px; /* Define a altura da barra de navegação do bate-papo como 60px. */
-  background-color: #eeeeee; /* Define a cor de fundo da barra de navegação do bate-papo como cinza claro. */
-  border-left: 1px solid #ddd; /* Adiciona uma borda esquerda sólida de 1px com cor cinza claro à barra de navegação do bate-papo. */
+  background-color: #202c33; /* Define a cor de fundo da barra de navegação do bate-papo como cinza claro. */
+  border-left: 1px solid #333d43; /* Adiciona uma borda esquerda sólida de 1px com cor cinza claro à barra de navegação do bate-papo. */
   padding-left: 75px; /* Adiciona um preenchimento à esquerda de 75px à barra de navegação do bate-papo para acomodar o ícone do usuário e o nome do contato. */
 }
 
@@ -282,9 +283,7 @@ ul {
 }
 
 .bg-image {
-  background-image: url("img/background_whats.png"); /* Define uma imagem de fundo para o contêiner de mensagens. */
-  background-repeat: repeat; /* Define a repetição da imagem de fundo para preencher todo o contêiner de mensagens. */
-  opacity: 0.06; /* Define a opacidade da imagem de fundo como 0.06 para que fique mais sutil. */
+  background-color: #333d43; /* Define uma imagem de fundo para o contêiner de mensagens. */
   width: 100%; /* Define a largura da imagem de fundo como 100% do contêiner de mensagens. */
   height: 100%; /* Define a altura da imagem de fundo como 100% do contêiner de mensagens. */
 }
@@ -343,8 +342,8 @@ ul {
 /* send message */
 
 .sendmessage-container {
-  background-color: #efefef; /* Define a cor de fundo do contêiner de envio de mensagens como cinza claro. */
-  border-left: 1px solid #ddd; /* Adiciona uma borda esquerda sólida de 1px com cor cinza claro ao contêiner de envio de mensagens. */
+  background-color: #202c33; /* Define a cor de fundo do contêiner de envio de mensagens como cinza claro. */
+  border-left: 1px solid #333d43; /* Adiciona uma borda esquerda sólida de 1px com cor cinza claro ao contêiner de envio de mensagens. */
   height: 60px; /* Define a altura do contêiner de envio de mensagens como 60px. */
   padding-left: 20px; /* Adiciona um preenchimento à esquerda de 20px ao contêiner de envio de mensagens. */
   padding-right: 20px; /* Adiciona um preenchimento à direita de 20px ao contêiner de envio de mensagens. */
@@ -355,7 +354,7 @@ ul {
   position: absolute; /* Define a posição do campo de entrada de mensagem como absoluta para posicioná-lo dentro do contêiner de envio de mensagens. */
   top: 10px; /* Define a distância do topo do campo de entrada de mensagem como 10px para centralizá-lo verticalmente dentro do contêiner de envio de mensagens. */
   left: 60px; /* Define a distância da esquerda do campo de entrada de mensagem como 60px para criar espaço para o ícone de emoji. */
-  background-color: #fff; /* Define a cor de fundo do campo de entrada de mensagem como branco. */
+  background-color: #2a3942; /* Define a cor de fundo do campo de entrada de mensagem como branco. */
   border: none; /* Remove as bordas do campo de entrada de mensagem. */
   height: 40px; /* Define a altura do campo de entrada de mensagem como 40px. */
   border-radius: 20px; /* Adiciona um raio de borda de 20px para arredondar as bordas do campo de entrada de mensagem. */
