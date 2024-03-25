@@ -6,99 +6,157 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
       rel="stylesheet"
     />
+    <!-- Importa a fonte "Open Sans" do Google Fonts. -->
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- Importa o arquivo CSS styles.css. -->
     <script src="https://kit.fontawesome.com/bf7e05c402.js"></script>
+    <!-- Importa a biblioteca Font Awesome. -->
   </head>
   <body>
     <div class="container">
+      <!-- Contêiner principal -->
       <aside class="sidebar">
+        <!-- Barra lateral -->
         <div class="toolbar-container">
+          <!-- Contêiner da barra de ferramentas -->
           <img class="user-photo" src="images/avatar1.png" />
+          <!-- Imagem do usuário -->
           <div class="auxicons-toolbar-container">
+            <!-- Contêiner de ícones auxiliares da barra de ferramentas -->
             <i class="fas fa-spinner"></i>
+            <!-- Ícone de carregamento -->
             <i class="fas fa-comment-alt"></i>
+            <!-- Ícone de chat -->
             <i class="fas fa-ellipsis-v"></i>
+            <!-- Ícone de menu de opções -->
           </div>
         </div>
         <div class="notification-container">
+          <!-- Contêiner de notificações -->
           <i class="fas fa-bell-slash"></i>
+          <!-- Ícone de sino cortado (notificações desativadas) -->
           <p class="receive-notification">
             Receba notificações de novas mensagens
           </p>
+          <!-- Mensagem de receber notificações -->
           <p class="activate-notification">
             Ativar notificações na área de trabalho
             <i class="fas fa-angle-right"></i>
           </p>
+          <!-- Mensagem para ativar notificações -->
         </div>
         <div class="search-container">
+          <!-- Contêiner de pesquisa -->
           <i id="contact-search" class="fas fa-search"></i>
+          <!-- Ícone de pesquisa -->
           <input
             type="text"
             id="search"
             name="search"
             placeholder="Procurar ou começar uma nova conversa"
           />
+          <!-- Campo de pesquisa -->
         </div>
         <div class="contacts-container">
+          <!-- Contêiner de contatos -->
+          <!-- Lista de contatos -->
           <div class="contact-box active-chat">
+            <!-- Caixa de contato ativo -->
             <img class="user-photo" src="images/avatar2.png" />
+            <!-- Foto do usuário -->
             <div class="user-info">
+              <!-- Informações do usuário -->
               <p class="user-name">Marta Vaz Correa</p>
+              <!-- Nome do usuário -->
               <p class="user-messagepreview">
                 <i class="fas fa-check-double"></i>Oi, tudo bem?
               </p>
+              <!-- Pré-visualização da mensagem do usuário -->
             </div>
             <div class="message-info">
+              <!-- Informações da mensagem -->
               <p class="message-time">22:40</p>
+              <!-- Horário da mensagem -->
             </div>
           </div>
           <div class="contact-box">
             <img class="user-photo" src="images/avatar3.png" />
+            <!-- Foto do usuário -->
             <div class="user-info">
+              <!-- Informações do usuário -->
               <p class="user-name">Sandro Vaz</p>
+              <!-- Nome do usuário -->
               <p class="user-messagepreview">Está disponível para um freela?</p>
+              <!-- Pré-visualização da mensagem do usuário -->
             </div>
             <div class="message-info">
+              <!-- Informações da mensagem -->
               <p class="message-time">12:30</p>
+              <!-- Horário da mensagem -->
               <p class="message-pending">3</p>
+              <!-- Contagem de mensagens pendentes -->
             </div>
           </div>
           <div class="contact-box">
             <img class="user-photo" src="images/avatar4.png" />
+            <!-- Foto do usuário -->
             <div class="user-info">
+              <!-- Informações do usuário -->
               <p class="user-name">Inês Correa</p>
+              <!-- Nome do usuário -->
               <p class="user-messagepreview">
                 O projeto ficou perfeito, obrigada!
               </p>
+              <!-- Pré-visualização da mensagem do usuário -->
             </div>
             <div class="message-info">
+              <!-- Informações da mensagem -->
               <p class="message-time">08:20</p>
+              <!-- Horário da mensagem -->
               <p class="message-pending">5</p>
+              <!-- Contagem de mensagens pendentes -->
             </div>
           </div>
+          <!-- Outras caixas de contato -->
         </div>
       </aside>
       <main class="chat-container">
+        <!-- Contêiner de chat -->
         <nav class="chat-navbar">
+          <!-- Barra de navegação do chat -->
           <div class="contactinfo-container">
+            <!-- Contêiner de informações do contato -->
             <img class="user-photo" src="images/avatar2.png" />
+            <!-- Foto do usuário -->
             <p class="user-name">Sabrina Matos</p>
+            <!-- Nome do usuário -->
           </div>
           <ul class="chattools-container">
+            <!-- Contêiner de ferramentas do chat -->
             <li><i class="fas fa-search"></i></li>
+            <!-- Ícone de pesquisa -->
             <li><i class="fas fa-paperclip"></i></li>
+            <!-- Ícone de clipe (anexar arquivo) -->
             <li><i class="fas fa-ellipsis-v"></i></li>
+            <!-- Ícone de menu de opções -->
           </ul>
         </nav>
         <div class="messages-container">
+          <!-- Contêiner de mensagens -->
           <div class="bg-image"></div>
+          <!-- Imagem de fundo -->
           <div class="chat-messages">
+            <!-- Mensagens do chat -->
             <p class="guest-message">Olá, bom dia</p>
+            <!-- Mensagem do convidado -->
             <p class="user-message">Oi, tudo bem?</p>
+            <!-- Mensagem do usuário -->
           </div>
         </div>
         <div class="sendmessage-container">
+          <!-- Contêiner de envio de mensagem -->
           <i class="far fa-grin"></i>
+          <!-- Ícone de emoji -->
           <input
             id="chatmessage"
             type="text"
@@ -106,7 +164,9 @@
             class="userinput"
             placeholder="Digite uma mensagem"
           />
+          <!-- Campo de entrada de mensagem -->
           <i class="fas fa-microphone"></i>
+          <!-- Ícone de microfone -->
         </div>
       </main>
     </div>

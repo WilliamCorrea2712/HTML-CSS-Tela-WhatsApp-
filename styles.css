@@ -4,372 +4,378 @@ body,
 ul {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; /* Define a fonte padrão para todo o documento como Open Sans ou fonte genérica sans-serif. */
 }
 
 ul {
-  list-style: none;
+  list-style: none; /* Remove os marcadores de lista padrão. */
 }
 
 .container {
-  height: 100vh;
-  position: relative;
+  height: 100vh; /* Define a altura do container como 100% da altura da viewport. */
+  position: relative; /* Define a posição do container como relativa para que os elementos dentro dele sejam posicionados relativos a ele. */
 }
 
 /* side bar */
 .sidebar {
-  width: 410px;
-  height: 100%;
-  display: inline-block;
-  position: relative;
+  width: 410px; /* Define a largura da barra lateral como 410px. */
+  height: 100%; /* Define a altura da barra lateral como 100% da altura do seu contêiner pai. */
+  display: inline-block; /* Faz com que a barra lateral se comporte como um bloco e fique alinhada ao lado de outros elementos em linha. */
+  position: relative; /* Define a posição da barra lateral como relativa para que os elementos dentro dela sejam posicionados relativos a ela. */
 }
 
 /* toolbar */
 .toolbar-container {
-  width: 100%;
-  height: 60px;
-  background-color: #eee;
+  width: 100%; /* Define a largura da barra de ferramentas como 100% do seu contêiner pai. */
+  height: 60px; /* Define a altura da barra de ferramentas como 60px. */
+  background-color: #eee; /* Define a cor de fundo da barra de ferramentas como cinza claro. */
 }
 
 .user-photo {
-  width: 40px;
-  border-radius: 50%;
-  position: absolute;
-  left: 15px;
-  top: 10px;
-  background-color: #ccc;
+  width: 40px; /* Define a largura da foto do usuário como 40px. */
+  border-radius: 50%; /* Define um raio de borda de 50% para criar uma forma de círculo para a foto do usuário. */
+  position: absolute; /* Define a posição da foto do usuário como absoluta para que possa ser posicionada em relação ao seu contêiner pai. */
+  left: 15px; /* Define a distância da esquerda como 15px para posicionar a foto do usuário. */
+  top: 10px; /* Define a distância do topo como 10px para posicionar a foto do usuário. */
+  background-color: #ccc; /* Define a cor de fundo da foto do usuário como cinza claro. */
 }
 
 .auxicons-toolbar-container {
-  float: right;
-  height: 60px;
-  line-height: 60px;
-  padding-right: 20px;
+  float: right; /* Faz com que o contêiner de ícones auxiliares flutue para a direita dentro do seu contêiner pai. */
+  height: 60px; /* Define a altura do contêiner de ícones auxiliares como 60px. */
+  line-height: 60px; /* Define a altura da linha para 60px, para centralizar verticalmente os ícones. */
+  padding-right: 20px; /* Adiciona um preenchimento à direita do contêiner de ícones auxiliares. */
 }
 
 .auxicons-toolbar-container i {
-  color: #80868a;
-  font-size: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
-  cursor: pointer;
+  color: #80868a; /* Define a cor dos ícones auxiliares como cinza. */
+  font-size: 20px; /* Define o tamanho da fonte dos ícones auxiliares como 20px. */
+  margin-left: 15px; /* Adiciona uma margem à esquerda para separar os ícones auxiliares. */
+  margin-right: 15px; /* Adiciona uma margem à direita para separar os ícones auxiliares. */
+  cursor: pointer; /* Altera o cursor para o formato de ponteiro quando os ícones auxiliares são clicados. */
 }
 
 /* notification container */
 .notification-container {
-  width: 100%;
-  height: 90px;
-  padding-top: 23px;
-  padding-left: 80px;
-  background-color: #9de1fe;
-  color: #384c56;
-  position: relative;
-  box-sizing: border-box;
+  width: 100%; /* Define a largura do contêiner de notificações como 100% do seu contêiner pai. */
+  height: 90px; /* Define a altura do contêiner de notificações como 90px. */
+  padding-top: 23px; /* Adiciona um preenchimento na parte superior do contêiner de notificações. */
+  padding-left: 80px; /* Adiciona um preenchimento na parte esquerda do contêiner de notificações. */
+  background-color: #9de1fe; /* Define a cor de fundo do contêiner de notificações como azul claro. */
+  color: #384c56; /* Define a cor do texto do contêiner de notificações como cinza escuro. */
+  position: relative; /* Define a posição do contêiner de notificações como relativa para que os elementos dentro dele sejam posicionados relativos a ele. */
+  box-sizing: border-box; /* Faz com que as bordas e o preenchimento sejam contabilizados no cálculo da largura e altura total do contêiner. */
 }
 
 .fas.fa-bell-slash {
-  width: 45px;
-  height: 45px;
-  text-align: center;
-  line-height: 45px;
-  border-radius: 50%;
-  font-size: 18px;
-  color: #9de1fe;
-  background-color: #f5fcff;
-  position: absolute;
-  top: 20px;
-  left: 15px;
+  width: 45px; /* Define a largura do ícone de notificação como 45px. */
+  height: 45px; /* Define a altura do ícone de notificação como 45px. */
+  text-align: center; /* Centraliza o texto dentro do ícone de notificação. */
+  line-height: 45px; /* Define a altura da linha do ícone de notificação como 45px para centralizar verticalmente o ícone. */
+  border-radius: 50%; /* Define um raio de borda de 50% para criar uma forma de círculo para o ícone de notificação. */
+  font-size: 18px; /* Define o tamanho da fonte do ícone de notificação como 18px. */
+  color: #9de1fe; /* Define a cor do ícone de notificação como azul claro. */
+  background-color: #f5fcff; /* Define a cor de fundo do ícone de notificação como branco. */
+  position: absolute; /* Define a posição do ícone de notificação como absoluta para que possa ser posicionado dentro do contêiner de notificações. */
+  top: 20px; /* Define a distância do topo como 20px para posicionar o ícone de notificação. */
+  left: 15px; /* Define a distância da esquerda como 15px para posicionar o ícone de notificação. */
 }
 
 .notification-container p {
-  margin: 0;
+  margin: 0; /* Remove as margens padrão dos parágrafos dentro do contêiner de notificações. */
 }
 
 .notification-container .receive-notification {
-  font-size: 15px;
-  margin-bottom: 3px;
+  font-size: 15px; /* Define o tamanho da fonte para mensagens de recebimento de notificação como 15px. */
+  margin-bottom: 3px; /* Adiciona uma margem inferior de 3px para separar as mensagens de recebimento de notificação. */
 }
 
 .activate-notification {
-  font-size: 13px;
+  font-size: 13px; /* Define o tamanho da fonte para o link de ativar notificações como 13px. */
 }
 
 /* search container */
 .search-container {
-  height: 50px;
-  width: 100%;
-  padding-left: 7.5px;
-  padding-top: 7.5px;
-  background-color: #f8f8f8;
-  position: relative;
-  color: #bdc1c3;
-  box-sizing: border-box;
+  height: 50px; /* Define a altura do contêiner de pesquisa como 50px. */
+  width: 100%; /* Define a largura do contêiner de pesquisa como 100% do seu contêiner pai. */
+  padding-left: 7.5px; /* Adiciona um preenchimento à esquerda do contêiner de pesquisa. */
+  padding-top: 7.5px; /* Adiciona um preenchimento ao topo do contêiner de pesquisa. */
+  background-color: #f8f8f8; /* Define a cor de fundo do contêiner de pesquisa como cinza claro. */
+  position: relative; /* Define a posição do contêiner de pesquisa como relativa para que os elementos dentro dele sejam posicionados relativos a ele. */
+  color: #bdc1c3; /* Define a cor do texto do contêiner de pesquisa como cinza claro. */
+  box-sizing: border-box; /* Faz com que as bordas e o preenchimento sejam contabilizados no cálculo da largura e altura total do contêiner. */
 }
 
 #contact-search {
-  position: absolute;
-  left: 30px;
-  top: 18px;
-  font-size: 14px;
+  position: absolute; /* Define a posição do ícone de pesquisa como absoluta para que possa ser posicionado dentro do contêiner de pesquisa. */
+  left: 30px; /* Define a distância da esquerda como 30px para posicionar o ícone de pesquisa. */
+  top: 18px; /* Define a distância do topo como 18px para posicionar o ícone de pesquisa. */
+  font-size: 14px; /* Define o tamanho da fonte do ícone de pesquisa como 14px. */
 }
 
 #search {
-  border: none;
-  height: 35px;
-  width: 385px;
-  padding-left: 60px;
-  border-radius: 17.5px;
-  background-color: #fff;
-  box-sizing: border-box;
+  border: none; /* Remove a borda do campo de pesquisa. */
+  height: 35px; /* Define a altura do campo de pesquisa como 35px. */
+  width: 385px; /* Define a largura do campo de pesquisa como 385px. */
+  padding-left: 60px; /* Adiciona um preenchimento à esquerda do campo de pesquisa para acomodar o ícone de pesquisa. */
+  border-radius: 17.5px; /* Define um raio de borda de 17.5px para criar uma forma arredondada para o campo de pesquisa. */
+  background-color: #fff; /* Define a cor de fundo do campo de pesquisa como branco. */
+  box-sizing: border-box; /* Faz com que as bordas e o preenchimento sejam contabilizados no cálculo da largura e altura total do campo de pesquisa. */
 }
 
 #search::placeholder {
-  color: #bdc1c3;
+  color: #bdc1c3; /* Define a cor do texto de espaço reservado (placeholder) do campo de pesquisa como cinza claro. */
 }
 
 /* contacts container */
-
 .contacts-container {
-  height: auto;
-  background-color: #fff;
+  height: auto; /* Define a altura do contêiner de contatos como automática, para ajustar dinamicamente à altura do seu conteúdo. */
+  background-color: #fff; /* Define a cor de fundo do contêiner de contatos como branco. */
 }
 
 .contact-box {
-  cursor: pointer;
-  height: 72px;
-  background-color: #fff;
-  border-top: 1px solid #f2f2f2;
-  position: relative;
-  box-sizing: border-box;
+  cursor: pointer; /* Altera o cursor para o formato de ponteiro quando o mouse passa sobre as caixas de contato, indicando que elas são clicáveis. */
+  height: 72px; /* Define a altura das caixas de contato como 72px. */
+  background-color: #fff; /* Define a cor de fundo das caixas de contato como branco. */
+  border-top: 1px solid #f2f2f2; /* Adiciona uma borda superior sólida de 1px com cor cinza claro nas caixas de contato. */
+  position: relative; /* Define a posição das caixas de contato como relativa para que os elementos dentro delas sejam posicionados relativos a elas. */
+  box-sizing: border-box; /* Faz com que as bordas e o preenchimento sejam contabilizados no cálculo da largura e altura total das caixas de contato. */
 }
 
 .contact-box:last-child {
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2; /* Adiciona uma borda inferior sólida de 1px com cor cinza claro na última caixa de contato. */
 }
 
 .contact-box:hover {
-  background-color: #f4f5f5;
+  background-color: #f4f5f5; /* Define a cor de fundo das caixas de contato quando o mouse passa sobre elas como cinza claro. */
 }
 
 .active-chat {
-  background-color: #e9ebeb;
+  background-color: #e9ebeb; /* Define a cor de fundo da caixa de contato ativa como cinza claro. */
 }
 
 .active-chat.contact-box:hover {
-  background-color: #e9ebeb;
+  background-color: #e9ebeb; /* Define a cor de fundo da caixa de contato ativa quando o mouse passa sobre ela como cinza claro. */
 }
 
 .contact-box .user-photo {
-  width: 50px;
+  width: 50px; /* Define a largura das fotos de usuário nas caixas de contato como 50px. */
 }
 
 .user-info {
-  margin-left: 80px;
-  padding-top: 10px;
-  display: inline-block;
+  margin-left: 80px; /* Adiciona uma margem à esquerda de 80px para separar as informações do usuário nas caixas de contato. */
+  padding-top: 10px; /* Adiciona um preenchimento superior de 10px nas informações do usuário nas caixas de contato. */
+  display: inline-block; /* Faz com que as informações do usuário se comportem como blocos em linha. */
 }
 
 .user-info p,
 .message-info p {
-  margin: 0;
+  margin: 0; /* Remove as margens padrão dos parágrafos dentro das informações do usuário e de mensagens. */
 }
 
 .user-name {
-  font-size: 16px;
-  color: #000;
-  margin-bottom: 12px;
+  font-size: 16px; /* Define o tamanho da fonte do nome do usuário como 16px. */
+  color: #000; /* Define a cor do nome do usuário como preto. */
+  margin-bottom: 12px; /* Adiciona uma margem inferior de 12px para separar o nome do usuário da mensagem de pré-visualização. */
 }
 
 .user-messagepreview {
-  font-size: 14px;
-  color: #454545;
+  font-size: 14px; /* Define o tamanho da fonte da mensagem de pré-visualização do usuário como 14px. */
+  color: #454545; /* Define a cor da mensagem de pré-visualização do usuário como cinza escuro. */
 }
 
 .fa-check-double {
-  margin-right: 5px;
-  color: #4fc3f7;
+  margin-right: 5px; /* Adiciona uma margem à direita de 5px para separar o ícone de confirmação dupla da mensagem de pré-visualização. */
+  color: #4fc3f7; /* Define a cor do ícone de confirmação dupla como azul claro. */
 }
 
 .message-info {
-  position: absolute;
-  top: 12px;
-  right: 20px;
-  display: inline-block;
+  position: absolute; /* Define a posição das informações da mensagem como absoluta para que possam ser posicionadas dentro das caixas de contato. */
+  top: 12px; /* Define a distância do topo como 12px para posicionar as informações da mensagem. */
+  right: 20px; /* Define a distância da direita como 20px para posicionar as informações da mensagem. */
+  display: inline-block; /* Faz com que as informações da mensagem se comportem como blocos em linha. */
 }
 
 .message-info .message-time {
-  font-size: 12px;
-  margin-bottom: 5px;
-  color: #ccc;
+  font-size: 12px; /* Define o tamanho da fonte do horário da mensagem como 12px. */
+  margin-bottom: 5px; /* Adiciona uma margem inferior de 5px para separar o horário da mensagem de outros elementos. */
+  color: #ccc; /* Define a cor do horário da mensagem como cinza claro. */
 }
-
 .message-pending {
-  background-color: #09d261;
-  color: #fff;
-  width: 19px;
-  height: 19px;
-  line-height: 19px;
-  font-size: 12px;
-  font-weight: bold;
-  border-radius: 50%;
-  text-align: center;
-  float: right;
+  background-color: #09d261; /* Define a cor de fundo do indicador de mensagens pendentes como verde. */
+  color: #fff; /* Define a cor do texto do indicador de mensagens pendentes como branco. */
+  width: 19px; /* Define a largura do indicador de mensagens pendentes como 19px. */
+  height: 19px; /* Define a altura do indicador de mensagens pendentes como 19px. */
+  line-height: 19px; /* Define a altura da linha do indicador de mensagens pendentes como 19px para centralizar verticalmente o texto. */
+  font-size: 12px; /* Define o tamanho da fonte do indicador de mensagens pendentes como 12px. */
+  font-weight: bold; /* Define o peso da fonte do indicador de mensagens pendentes como negrito. */
+  border-radius: 50%; /* Define um raio de borda de 50% para criar uma forma circular para o indicador de mensagens pendentes. */
+  text-align: center; /* Centraliza o texto dentro do indicador de mensagens pendentes. */
+  float: right; /* Faz com que o indicador de mensagens pendentes flutue à direita dentro da caixa de contato. */
 }
 
 /* chat */
 
 .chat-container {
-  position: absolute;
-  top: 0;
-  left: 410px;
-  width: calc(100% - 410px);
-  height: 100%;
-  background-color: #ccc;
+  position: absolute; /* Define a posição do contêiner de bate-papo como absoluta para posicioná-lo na área de visualização da página. */
+  top: 0; /* Define a distância do topo como 0 para posicionar o contêiner de bate-papo no topo da área de visualização. */
+  left: 410px; /* Define a distância da esquerda como 410px para criar espaço para a barra lateral. */
+  width: calc(
+    100% - 410px
+  ); /* Define a largura do contêiner de bate-papo como 100% menos 410px, para ocupar todo o espaço restante na área de visualização. */
+  height: 100%; /* Define a altura do contêiner de bate-papo como 100% da altura da área de visualização. */
+  background-color: #ccc; /* Define a cor de fundo do contêiner de bate-papo como cinza claro. */
 }
 
 /* chat navbar */
 
 .chat-navbar {
-  height: 60px;
-  background-color: #eeeeee;
-  border-left: 1px solid #ddd;
-  padding-left: 75px;
+  height: 60px; /* Define a altura da barra de navegação do bate-papo como 60px. */
+  background-color: #eeeeee; /* Define a cor de fundo da barra de navegação do bate-papo como cinza claro. */
+  border-left: 1px solid #ddd; /* Adiciona uma borda esquerda sólida de 1px com cor cinza claro à barra de navegação do bate-papo. */
+  padding-left: 75px; /* Adiciona um preenchimento à esquerda de 75px à barra de navegação do bate-papo para acomodar o ícone do usuário e o nome do contato. */
 }
 
 .chat-navbar p {
-  margin: 0;
+  margin: 0; /* Remove as margens padrão dos parágrafos dentro da barra de navegação do bate-papo. */
 }
 
 .contactinfo-container {
-  display: inline-block;
+  display: inline-block; /* Faz com que o contêiner de informações do contato se comporte como um bloco em linha. */
 }
 
 .contactinfo-container .user-name {
-  font-size: 16px;
-  height: 60px;
-  line-height: 60px;
+  font-size: 16px; /* Define o tamanho da fonte do nome do contato como 16px. */
+  height: 60px; /* Define a altura do nome do contato como 60px para centralizar verticalmente com a altura da barra de navegação. */
+  line-height: 60px; /* Define a altura da linha do nome do contato como 60px para centralizar verticalmente o texto. */
 }
 
 .chattools-container {
-  float: right;
-  display: inline-block;
-  height: 60px;
-  line-height: 60px;
-  margin-right: 20px;
+  float: right; /* Faz com que o contêiner de ferramentas de bate-papo flutue à direita dentro da barra de navegação do bate-papo. */
+  display: inline-block; /* Faz com que o contêiner de ferramentas de bate-papo se comporte como um bloco em linha. */
+  height: 60px; /* Define a altura do contêiner de ferramentas de bate-papo como 60px para corresponder à altura da barra de navegação. */
+  line-height: 60px; /* Define a altura da linha do contêiner de ferramentas de bate-papo como 60px para centralizar verticalmente o texto. */
+  margin-right: 20px; /* Adiciona uma margem à direita de 20px para separar as ferramentas de bate-papo do lado direito da barra de navegação. */
 }
 
 .chattools-container li {
-  display: inline-block;
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 18px;
-  color: #80868a;
-  cursor: pointer;
+  display: inline-block; /* Faz com que os itens de ferramentas de bate-papo se comportem como blocos em linha. */
+  margin-left: 15px; /* Adiciona uma margem à esquerda de 15px para separar os itens de ferramentas de bate-papo. */
+  margin-right: 15px; /* Adiciona uma margem à direita de 15px para separar os itens de ferramentas de bate-papo. */
+  font-size: 18px; /* Define o tamanho da fonte dos itens de ferramentas de bate-papo como 18px. */
+  color: #80868a; /* Define a cor dos itens de ferramentas de bate-papo como cinza. */
+  cursor: pointer; /* Altera o cursor para o formato de ponteiro quando o mouse passa sobre os itens de ferramentas de bate-papo, indicando que eles são clicáveis. */
 }
 
 /* messages */
 
 .messages-container {
-  background-color: #e1dad2;
-  height: calc(100% - 120px);
-  position: relative;
+  background-color: #e1dad2; /* Define a cor de fundo do contêiner de mensagens como cinza claro. */
+  height: calc(
+    100% - 120px
+  ); /* Define a altura do contêiner de mensagens como 100% menos 120px, para ocupar o espaço restante na área de visualização, excluindo a altura da barra de navegação e do contêiner de envio de mensagens. */
+  position: relative; /* Define a posição do contêiner de mensagens como relativa para posicioná-lo em relação a ele mesmo. */
 }
 
 .messages-container p {
-  margin: 0;
+  margin: 0; /* Remove as margens padrão dos parágrafos dentro do contêiner de mensagens. */
 }
 
 .bg-image {
-  background-image: url("img/background_whats.png");
-  background-repeat: repeat;
-  opacity: 0.06;
-  width: 100%;
-  height: 100%;
+  background-image: url("img/background_whats.png"); /* Define uma imagem de fundo para o contêiner de mensagens. */
+  background-repeat: repeat; /* Define a repetição da imagem de fundo para preencher todo o contêiner de mensagens. */
+  opacity: 0.06; /* Define a opacidade da imagem de fundo como 0.06 para que fique mais sutil. */
+  width: 100%; /* Define a largura da imagem de fundo como 100% do contêiner de mensagens. */
+  height: 100%; /* Define a altura da imagem de fundo como 100% do contêiner de mensagens. */
 }
 
 .chat-messages {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  padding: 30px 80px;
-  box-sizing: border-box;
+  position: absolute; /* Define a posição das mensagens como absoluta para posicioná-las dentro do contêiner de mensagens. */
+  left: 0; /* Define a distância da esquerda como 0 para posicionar as mensagens no canto esquerdo do contêiner de mensagens. */
+  bottom: 0; /* Define a distância do fundo como 0 para posicionar as mensagens no canto inferior do contêiner de mensagens. */
+  width: 100%; /* Define a largura das mensagens como 100% do contêiner de mensagens. */
+  height: auto; /* Define a altura das mensagens como automática para ajustar dinamicamente à altura do seu conteúdo. */
+  padding: 30px 80px; /* Adiciona um preenchimento interno de 30px no topo e na base e 80px nos lados do contêiner de mensagens. */
+  box-sizing: border-box; /* Faz com que o preenchimento e a largura sejam incluídos no cálculo total da largura das mensagens. */
 }
 
 .chat-messages p {
-  display: block;
-  color: #262626;
-  font-size: 14px;
-  padding: 7px;
-  border-radius: 7px;
-  position: relative;
-  width: 200px;
+  display: block; /* Define os parágrafos das mensagens como elementos de bloco para que cada mensagem ocupe uma linha separada. */
+  color: #262626; /* Define a cor do texto das mensagens como preto. */
+  font-size: 14px; /* Define o tamanho da fonte das mensagens como 14px. */
+  padding: 7px; /* Adiciona um preenchimento interno de 7px nas mensagens para espaçamento interno. */
+  border-radius: 7px; /* Adiciona um raio de borda de 7px para arredondar as bordas das mensagens. */
+  position: relative; /* Define a posição das mensagens como relativa para posicioná-las em relação a elas mesmas. */
+  width: 200px; /* Define a largura máxima das mensagens como 200px para evitar que elas ocupem toda a largura do contêiner de mensagens. */
 }
 
 .guest-message {
-  background-color: #fff;
+  background-color: #fff; /* Define a cor de fundo das mensagens de convidados como branco. */
 }
 
 .guest-message:before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-bottom: 17px solid transparent;
-  border-right: 17px solid #fff;
-  position: absolute;
-  top: 0;
-  left: -10px;
+  content: ""; /* Adiciona um conteúdo antes das mensagens de convidados para criar uma seta de balão de fala. */
+  width: 0; /* Define a largura da seta como 0. */
+  height: 0; /* Define a altura da seta como 0. */
+  border-bottom: 17px solid transparent; /* Adiciona uma borda inferior transparente para criar a parte inferior da seta. */
+  border-right: 17px solid #fff; /* Adiciona uma borda direita sólida da cor de fundo para criar a parte direita da seta. */
+  position: absolute; /* Define a posição da seta como absoluta para posicioná-la em relação à mensagem de convidado. */
+  top: 0; /* Define a distância do topo da seta como 0 para posicioná-la no canto superior da mensagem. */
+  left: -10px; /* Define a distância da esquerda da seta como -10px para posicioná-la à esquerda da mensagem. */
 }
 
 .user-message {
-  background-color: #dcf8c6;
-  float: right;
+  background-color: #dcf8c6; /* Define a cor de fundo das mensagens do usuário como verde claro. */
+  float: right; /* Faz com que as mensagens flutuem para a direita dentro do contêiner de mensagens, alinhando-as à direita da tela. */
 }
 
 .user-message:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-bottom: 17px solid transparent;
-  border-left: 17px solid #dcf8c6;
-  position: absolute;
-  top: 0;
-  right: -10px;
+  content: ""; /* Adiciona um conteúdo depois das mensagens do usuário para criar uma seta de balão de fala. */
+  width: 0; /* Define a largura da seta como 0. */
+  height: 0; /* Define a altura da seta como 0. */
+  border-bottom: 17px solid transparent; /* Adiciona uma borda inferior transparente para criar a parte inferior da seta. */
+  border-left: 17px solid #dcf8c6; /* Adiciona uma borda esquerda sólida da cor de fundo para criar a parte esquerda da seta. */
+  position: absolute; /* Define a posição da seta como absoluta para posicioná-la em relação à mensagem do usuário. */
+  top: 0; /* Define a distância do topo da seta como 0 para posicioná-la no canto superior da mensagem. */
+  right: -10px; /* Define a distância da direita da seta como -10px para posicioná-la à direita da mensagem. */
 }
 
 /* send message */
 
 .sendmessage-container {
-  background-color: #efefef;
-  border-left: 1px solid #ddd;
-  height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: relative;
+  background-color: #efefef; /* Define a cor de fundo do contêiner de envio de mensagens como cinza claro. */
+  border-left: 1px solid #ddd; /* Adiciona uma borda esquerda sólida de 1px com cor cinza claro ao contêiner de envio de mensagens. */
+  height: 60px; /* Define a altura do contêiner de envio de mensagens como 60px. */
+  padding-left: 20px; /* Adiciona um preenchimento à esquerda de 20px ao contêiner de envio de mensagens. */
+  padding-right: 20px; /* Adiciona um preenchimento à direita de 20px ao contêiner de envio de mensagens. */
+  position: relative; /* Define a posição do contêiner de envio de mensagens como relativa para posicioná-lo em relação a ele mesmo. */
 }
 
 #chatmessage {
-  position: absolute;
-  top: 10px;
-  left: 60px;
-  background-color: #fff;
-  border: none;
-  height: 40px;
-  border-radius: 20px;
-  padding-left: 20px;
-  font-size: 16px;
-  width: 815px;
+  position: absolute; /* Define a posição do campo de entrada de mensagem como absoluta para posicioná-lo dentro do contêiner de envio de mensagens. */
+  top: 10px; /* Define a distância do topo do campo de entrada de mensagem como 10px para centralizá-lo verticalmente dentro do contêiner de envio de mensagens. */
+  left: 60px; /* Define a distância da esquerda do campo de entrada de mensagem como 60px para criar espaço para o ícone de emoji. */
+  background-color: #fff; /* Define a cor de fundo do campo de entrada de mensagem como branco. */
+  border: none; /* Remove as bordas do campo de entrada de mensagem. */
+  height: 40px; /* Define a altura do campo de entrada de mensagem como 40px. */
+  border-radius: 20px; /* Adiciona um raio de borda de 20px para arredondar as bordas do campo de entrada de mensagem. */
+  padding-left: 20px; /* Adiciona um preenchimento à esquerda de 20px ao campo de entrada de mensagem. */
+  font-size: 16px; /* Define o tamanho da fonte do texto do campo de entrada de mensagem como 16px. */
+  width: 815px; /* Define a largura do campo de entrada de mensagem como 815px para ocupar a largura disponível no contêiner de envio de mensagens. */
 }
 
 .sendmessage-container i {
-  font-size: 24px;
-  color: #80868a;
-  cursor: pointer;
-  height: 60px;
-  line-height: 60px;
+  font-size: 24px; /* Define o tamanho da fonte dos ícones dentro do contêiner de envio de mensagens como 24px. */
+  color: #80868a; /* Define a cor dos ícones dentro do contêiner de envio de mensagens como cinza. */
+  cursor: pointer; /* Altera o cursor para o formato de ponteiro quando o mouse passa sobre os ícones, indicando que eles são clicáveis. */
+  height: 60px; /* Define a altura dos ícones dentro do contêiner de envio de mensagens como 60px para corresponder à altura do contêiner. */
+  line-height: 60px; /* Define a altura da linha dos ícones como 60px para centralizar verticalmente os ícones dentro do contêiner. */
 }
 
 .fa-microphone {
-  float: right;
+  float: right; /* Faz com que o ícone do microfone flutue para a direita dentro do contêiner de envio de mensagens. */
+}
+
+.fa-microphone {
+  float: right; /* Faz com que o ícone do microfone flutue para a direita dentro do contêiner de envio de mensagens. */
 }
